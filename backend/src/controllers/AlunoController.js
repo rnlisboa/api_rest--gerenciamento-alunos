@@ -1,7 +1,7 @@
 import Aluno from "../models/Alunos";
 import Foto from '../models/Fotos'
 class AlunoController {
-
+    
     async index(req, res) {
         try {
             const alunos = await Aluno.findAll({
